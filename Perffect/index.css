@@ -1,0 +1,27 @@
+#container {
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+
+#container div.blocks {
+    background: #069;
+    width: 100%;
+    width: 300px;
+    transition: 0.1s linear height, 0.3s ease left, 0.3s ease top;
+}
+
+#container div.blocks:HOVER {
+    height: 600px;
+}
+.h1 {
+    height: 450px;
+}
+
+.h2 {
+    height: 500px;
+}
+.h3 {
+    height: 550px;
+}
